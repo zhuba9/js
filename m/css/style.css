@@ -1,0 +1,121 @@
+﻿body{ background:#1A0035;font-family:Arial,Helvetica,sans-serif;}
+.bgBox {background-color:#3D0572; padding-top: 3px;}
+
+.header{ height:1.2rem; line-height:1.2rem; color:#fff; background:#400571; width:100%; text-align:center;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover; position:fixed; top:0; left:0; z-index: 999;}
+.header .logo{ height: 85%; width:3.5rem;background: url(https://ae01.alicdn.com/kf/HTB1S1qIaAL0gK0jSZFt760QCXXaw.png) center center no-repeat;background-size:cover;margin: 2px auto 0; display: block;}
+
+/* 幻灯片相关 */
+.swiper-container {width: 100%;margin:0 auto; position: relative;overflow:hidden;z-index:1;margin-top:1.2rem; }
+.swiper-slide{-webkit-flex-shrink:0;-ms-flex:0 0 auto;flex-shrink:0;width:100%;height:100%;position:relative}
+.swiper-slide img{display: block;width: 100%;}
+.swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-transition-property:-webkit-transform;-moz-transition-property:-moz-transform;-o-transition-property:-o-transform;-ms-transition-property:-ms-transform;transition-property:transform;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}
+.swiper-pagination{position:absolute;text-align:center;-webkit-transition:.3s;-moz-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);z-index:10;bottom: 0;width: 100%}
+.swiper-pagination-bullet{width:.3rem;height:.3rem;display:inline-block;border-radius:100%;background: rgba(255,255,255,0.5);margin-left:.1rem;margin-right:.1rem}
+.swiper-pagination-bullet-active{opacity:1;background:#fff100}
+
+/* 滚动公告 */
+.gonggao{height: 1.1rem;background: #1B0033;}
+.gonggao .title{margin-left:0.4rem;color: #eee; font-size: 0.37rem; width: 2.4rem;margin-top: 0.3rem; height: 0.8rem; line-height: 0.5rem;float: left; display: block;}
+.gonggao .title span{display: block;float: left; width:0.5rem; height: 0.5rem;margin-right: 0.2rem}
+.gonggao .title span.ico01{background:url(https://ae01.alicdn.com/kf/HTB1sTyJaAL0gK0jSZFA763A9pXa0.png) no-repeat; background-size: cover;}
+.gonggao .gundong{color: #eeeeee; font-size: 0.37rem; overflow: hidden;line-height: 1.1rem}
+
+/* 线路检测 */
+.testing{line-height:1; background: #3D0572;}
+.testing:after{clear:both}
+
+
+.login{margin-left:0.4rem;padding-right: 0.4rem;overflow:hidden;margin-top: 0.333333rem;margin-bottom: 0.333333rem;}
+.login .nobd{width:5.6rem;height: 0.88rem;line-height: 0.88rem;border:2px solid #d4a43e;border-radius:0.6rem;display: block;margin: 0 auto;color: #deb558;font-size: 0.35rem; text-align:center}
+.login .nobd .user{display:inline-block;background: url(../images/user.png) no-repeat; background-size: cover;width: 0.4rem; height: 0.4rem;vertical-align:middle;margin-right: 0.08rem;}
+.login .bding .row1{width:9.20rem;height: 0.88rem; line-height:0.88rem; border:2px solid #d4a43e;border-radius:0.4rem;display: block;margin: 0 auto;color: #deb558;font-size: 0.35rem; text-align:center}
+.login .bding .row1 .user{display:inline-block;background: url(../images/user.png) no-repeat; background-size: cover;width: 0.4rem; height: 0.4rem;vertical-align:middle;margin-right: 0.08rem;}
+.login .bding .row1 span{color: #fff100}
+.login .bding .row1 span.s1,.login .bding .row1 span.s2{margin-right: 0.2rem}
+.login .bding .row1 .link1{color: #fff;display: inline-block;width: 1.1rem;height: .53rem;line-height: .53rem;font-size: .32rem;-moz-border-radius: .1rem;-webkit-border-radius: .1rem;border-radius: .1rem; text-align:center}
+.login .bding .row1 .link1{background: #e60012;margin-left:0.2rem}
+.login .bding .row1 .link2{ margin:0}
+
+
+.testing .bd{padding-left:0;padding-right:0;padding-top:0;padding-bottom:.4rem}
+.testing .bd ul{padding-left:.4rem;padding-right:.4rem;padding-top:0;padding-bottom:0}
+.testing .bd li{*zoom:1;margin-bottom:.4rem;}
+.testing .bd .ms{float:left;font-size:.37rem;height:.8rem;line-height:.8rem;width:1.4rem;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:.11rem;background:#180032;border:solid 1px #7A2FC1;margin-right:.3rem;color: #eee}
+.testing .bd .url{display:block;font-size:.40rem;height:.8rem;line-height:.8rem;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:.11rem;background:#180032;border:solid 1px #7A2FC1;color: #eee;text-align: left;padding-left: .3rem}
+.testing .bd .btn-open{line-height:1;float:right;margin-left:.3rem;font-size:.35rem;height:.8rem;line-height:.82rem;display:block;text-align:center;border:0;border-radius:.11rem;background:#deb558;border:1px solid #deb558;}
+.testing .bd .btn-open a{display:block;padding-left:.4rem;padding-right:.4rem;padding-top:0;padding-bottom:0;color:#311d0f;font-weight: bold;}
+
+.testing .hd{height:1.2rem;line-height:1.2rem;margin-left:0.4rem;margin-bottom: 10px; border-bottom: 1px solid #65330f;padding-right: 0.4rem}
+.testing .hd .lines{font-size:.37rem;float:left;display:block;font-weight:normal;color: #fff}
+.testing .hd .lines span{display: block;background: url(https://ae01.alicdn.com/kf/HTB13uiIaCf2gK0jSZFP760sopXaw.png) no-repeat;float: left; width:0.5rem;background-size:cover; height:0.5rem;margin-top: 0.37rem;margin-right: 0.2rem}
+.testing .hd .service{font-size:.37rem;float:right;display:block;font-weight:normal;color: #fff}
+.testing .hd .service a{color: #fff}
+.testing .hd .service span{display: block;background: url(../images/service.png) no-repeat;float: left; width:0.5rem;background-size:cover; height:0.5rem;margin-top: 0.37rem;margin-left:-0.7rem}
+
+.testing .hd .mob{float: right;color: #ffd053;font-size:0.37rem;line-height: 1.3rem}
+.testing .hd .mob span{display: block;background: url(../images/mob.png) no-repeat;float: left; width:0.48rem;background-size:cover; height:0.48rem;margin-top:0.37rem;margin-right: 0.2rem} 
+/* 新闻列表 */
+.news{line-height:1;*zoom:1;padding-left:.4rem;padding-right:.4rem;padding: 10px 0;background: #1A0035;}
+.news:after{clear:both}
+.news .hd{height:1.2rem;line-height:1.25rem;border-bottom: 1px solid #390B5C;padding-right: .21rem}
+.news .hd .promotions{font-size:.37rem;float:left;display:block;font-weight:normal;color: #deb558}
+.news .hd .promotions span{display: block;background: url(../images/gift.png) no-repeat;float: left; width:.5rem;background-size:cover; height:0.5rem;margin-top: .35rem;margin-right: 0.2rem}
+.news .bd ul{counter-reset:sectioncounter;padding-top:.13rem;}
+.news .bd li{font-size:.36rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-left:0;padding-right:0;padding-top:.4rem;padding-bottom:.7em; border-bottom: 1px dotted #390B5C}
+.news .bd li:before{content:counter(sectioncounter);counter-increment:sectioncounter;background:#deb558;color:#311d0f;width:.66rem;height:.66rem;line-height:.66rem;display:inline-block;-moz-border-radius:.66rem;-webkit-border-radius:.66rem;border-radius:.66rem;text-align:center;margin-right:.2rem}
+.news .bd li a{color: #eeeeee}
+
+
+.tccon{background:#42400f; border:1px solid #42400f; width:8.6rem; height:auto;padding:0.56rem 0; border-radius:0.15rem; display: none; position:relative;overflow:hidden;margin: 0 auto;}
+.tccon h2{color: #ffffa0;font-size:0.4rem;text-align: center;background: url(../images/tctitle.png) no-repeat; background-size: cover; width: 5.306667rem; height: 0.333333rem;line-height: 0.333333rem;margin: 0 auto; margin-bottom: 0.5rem}
+.tccon p{line-height: 1.36rem;height: 1.36rem;margin-left:0.64rem;}
+.tccon p input{ width:6.84rem; height:0.933333rem; border:none; border-radius:0.12rem; background: #fff;text-align: left;color: #1e1e1f;font-size:0.4rem;padding-left:0.333333rem}
+.tccon p input::-webkit-input-placeholder{color:#1e1e1f;}
+.tccon p input::-moz-placeholder{color:#1e1e1f;opacity:1;}
+.tccon p input:-moz-placeholder{color:#1e1e1f;opacity:1;}
+.tccon p .yzmimg{position: relative;margin-left:-1.8rem; width:1.546667rem; height: 0.666667rem; vertical-align:middle;}
+.tccon p select{ width:7.14rem; height:0.94333rem;color: #1e1e1f;font-size: 14px; padding-left:0.333333rem; border:none; border-radius:0.12rem;}
+.tccon p select option{}
+.tccon .subbtn{background: url(../images/subbtn.png) no-repeat; background-size: cover;width:7.146667rem; height:0.946667rem;line-height:0.906667rem; cursor: pointer; color: #5d2c0b; font-size: 0.4rem;text-align: center;border: none;padding:0; font-weight:bold;}
+.closebtn{background: url(../images/close.png) no-repeat; background-size: cover; width:0.666667rem; height:0.666667rem;position: absolute;right:0px;top:0px; display: block; cursor: pointer;}
+
+
+.copyright {
+	padding: 0 10px 0;
+	color: #eee;
+	text-align: center;
+	font-size: 0.35rem;
+	line-height: 1.6;
+}
+.copyright span {
+	padding-bottom:10px;
+	margin-bottom: 10px;
+	font-size: 0.4rem;
+	display: block;
+	border-bottom: 1px solid #CCC;
+}
+
+.quicklink{ margin-bottom: 20px;border-top: 1px solid #7a2fc1;border-bottom: 1px solid #7a2fc1;background-color: #3d0572;}
+.quickmain{width: 10rem;margin: 0 auto;}
+.quickmain ul {height: 1.08rem;border-bottom: 1px solid #7a2fc1;background: url() no-repeat; background-size: cover;}
+.quickmain ul.last{border-bottom: none;}
+.quickmain ul li{float: left;
+	width:2.333rem;
+	height: 0.813rem;
+	padding-top: 0.333rem;
+	padding-left: 0.8rem;
+	overflow:hidden;}
+.quickmain ul li a{
+	display: block;
+	width: 2.73rem;
+	height: 0.533rem;
+	color: #fff;
+	font-size:0.373rem;
+	padding-left: 0.64rem;
+	vertical-align:middle;}
+.quickmain ul li.no1 a{background: url(https://www.baidu.com/favicon.ico)no-repeat center left;background-size: 0.48rem 0.48rem;}
+.quickmain ul li.no2 a{background: url(https://www.sogou.com/images/logo/new/favicon.ico)no-repeat center left;background-size: 0.466rem 0.48rem;}
+.quickmain ul li.no3 a{background: url(https://s.ssl.qhres.com/static/52166db8c450f68d.ico)no-repeat center left;background-size: 0.48rem 0.48rem;}
+.quickmain ul li.no4 a{background: url(../images/ico4.png)no-repeat center left;background-size: 0.4933rem 0.506rem;}
+.quickmain ul li.no5 a{background: url(../images/ico5.png)no-repeat center left;background-size: 0.56rem 0.48rem;}
+.quickmain ul li.no6 a{background: url(../images/ico6.png)no-repeat center left;background-size: 0.426rem 0.4933rem;}
